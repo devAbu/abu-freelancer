@@ -1,0 +1,375 @@
+.logo{
+    width: 80px;
+    padding-left: 5px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    height: 80px;
+}
+
+.register{
+    float: right;
+    margin-top: 2px;
+}
+
+.nav-button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+header{
+    background-color: rgb(220, 244, 250);
+    border-bottom: 2px solid rgb(1, 144, 180);
+    background-image: url(https://img00.deviantart.net/a71a/i/2012/040/3/8/texture_11_by_sirius_sdz-d1919j8.jpg);
+}
+
+#left_part h2{
+    font-size: 35px;
+    max-width: 550px;
+    padding-left: 50px;
+}
+
+#left_part p{
+    font-size: 20px;
+    padding-left: 50px;
+    max-width: 550px;
+}
+
+#left_part a{
+    padding-left: 150px;
+}
+
+#right_part span{
+    width: 55px;
+    height: 55px;
+    border-radius: 60%;
+    font-size: 30px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    background: rgb(186, 225, 248);
+    margin-left: 0px;
+}
+
+#right_part p{
+    margin-left: 250px;
+    font-size: 22px;
+}
+
+#image-services{
+    padding-left: 120px;
+}
+
+#services img{
+        width: 250px;
+        height: 250px;
+}
+
+#how-text{
+    font-size: 17px;
+    color: chocolate;
+}
+
+video{
+    margin-left: 500px;
+}
+
+footer{
+    padding-top: 0px;
+}
+
+#user{
+    float: left;
+    padding-right: 120px;
+}
+
+
+ul{
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+li{
+    margin: 25px 0;
+}
+
+#bg{
+    background-color: rgb(95, 95, 255);
+    height: 250px; 
+}
+
+.bg-text{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+#aboutUS-nav ul {
+    padding: 0;
+    margin: 0;
+}
+#aboutUs-nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#how-nav ul {
+    padding: 0;
+    margin: 0;
+}
+#how-nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.list-item1{
+    padding-left: 38%;
+    padding-right:40px;
+}
+
+.list-item2{
+    padding-right:40px;
+}
+
+.list-item3{
+    padding-right:40px;
+}
+
+.list-item4{
+    padding-right:40px;
+}
+
+.list-item1-freel{
+    padding-left: 35%;
+    padding-right:40px;
+}
+
+.list-item2-freel{
+    padding-right:40px;
+}
+
+.list-item3-freel{
+    padding-right:40px;
+}
+
+.list-item4-freel{
+    padding-right:40px;
+}
+
+.list-item1-about{
+    padding-left: 30%;
+    padding-right:40px;
+}
+
+.list-item2-about{
+    padding-right:40px;
+}
+
+.list-item3-about{
+    padding-right:40px;
+}
+
+.list-item4-about{
+    padding-right:40px;
+}
+
+#aboutUs-nav-line-about{
+    max-width: 500px;
+    background-color: rgb(85, 85, 255);
+    margin-top: -20px;
+    margin-left: 410px;
+}
+
+
+#aboutUs-nav-line{
+    max-width: 550px;
+    background-color: rgb(85, 85, 255);
+    margin-top: -15px;
+}
+
+#how-nav-line{
+    max-width: 450px;
+    background-color: rgb(85, 85, 255);
+    margin-top: -15px;
+    margin-left: 435px;
+}
+
+#how-nav-lin{
+    max-width: 390px;
+    background-color: rgb(85, 85, 255);
+    margin-top: -15px;
+    margin-left: 465px;
+}
+
+#aboutUs h2{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+
+#ourTeam h2{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#location h2{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#contact h2{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#contact label span{
+    font-size: 23px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+#contact a{
+    font-size: 20px;
+}
+
+#contact{
+    padding-bottom: 10px;
+}
+
+#aboutUs, #ourTeam, #contact, #location{
+    padding-left: 15px;
+}
+
+#hire{
+    margin-left: 445px;
+    margin-top: 77px;
+    width: 200px;
+    height:60px;
+    background-color: white;
+    color:blue;
+}
+
+#freel{
+    margin-left: 20px;
+    margin-top: 77px;
+    width: 200px;
+    height:60px;
+    background-color: white;
+    color:blue;
+}
+
+#find{
+    max-width: 45%;
+}
+
+#find-image{
+    float: right;
+    max-width: 45%;
+}
+
+#hire-text{
+    max-width: 45%;
+}
+
+#hire-image{
+    float: right;
+    max-width: 45%;
+}
+
+#work{
+    max-width: 45%;
+}
+
+#work-image{
+    float: right;
+    max-width: 45%;
+}
+
+#pay{
+    max-width: 45%;
+}
+
+#pay-image{
+    float: right;
+    max-width: 45%;
+}
+
+#hired{
+    max-width: 45%;
+}
+
+#paid{
+    max-width: 45%;
+}
+
+#bestOf-nav ul {
+    padding: 0;
+    margin: 0;
+}
+#bestOf-nav li {
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+.list-item1-best{
+    padding-left: 5%;
+    padding-right:45px;
+}
+
+.list-item2-best{
+    padding-right:45px;
+}
+
+.list-item3-best{
+    padding-right:45px;
+}
+
+.list-item4-best{
+    padding-right:45px;
+}
+
+.list-item5-best{
+    padding-right:45px;
+}
+
+.list-item6-best{
+    padding-right:45px;
+}
+
+.list-item7-best{
+    padding-right:45px;
+}
+
+#bestOf-nav-line{
+    max-width: 1200px;
+    background-color: rgb(85, 85, 255);
+    margin-top: -15px;
+    margin-right:111px;  
+}
+
+#search{
+    width: 100px;
+    -webkit-transition:  0.4s ease-in-out;
+    transition:  0.8s ease-in-out;
+}
+
+#search-loged{
+    width: 123px;
+    -webkit-transition:  0.4s ease-in-out;
+    transition:  0.8s ease-in-out;
+}
+
+#search:focus {
+    width: 350px;
+}
+
+#search-loged:focus{
+    width: 180px;
+}
+
+.form-rounded {
+    border-radius: 50%;
+}
