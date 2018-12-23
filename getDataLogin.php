@@ -21,7 +21,7 @@ echo "Password :   " .$password. "<br>";
 $success = true;
 
 if(!$connection){
-	echo "abu ".mysqli_connect_error(). "<br>;
+	echo "abu ".mysqli_connect_error(). "<br>";
 	$success = false;
 }
 
