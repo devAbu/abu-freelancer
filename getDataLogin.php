@@ -1,5 +1,6 @@
 <?php 
 
+$servername = "localhost"
 $hostname =" 3.83.23.191";
 $username = "newuser";
 $pass = "password";
