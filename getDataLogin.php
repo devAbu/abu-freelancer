@@ -6,7 +6,7 @@ $username = "newuser";
 $pass = "password";
 $dataBaseName = "freelancer";
 
-$connection = mysqli_connect($hostname, $username, $pass);
+$connection = mysqli_connect($servername,$hostname, $username, $pass);
 $selection = mysqli_select_db($connection, $dataBaseName);
 
 $mail = $_POST['userName'];
