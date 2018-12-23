@@ -177,9 +177,9 @@
         <label>Jobs posted number:</label>
         <br>
         <?php
-        $hostname = "localhost";
-        $username = "root";
-        $pass = "";
+        $hostname = "http://3.83.23.191";
+         $username = "newuser";
+        $pass = "password";
         $dataBaseName = "freelancer";
 
         $connection = mysqli_connect($hostname, $username, $pass);
