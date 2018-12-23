@@ -21,12 +21,12 @@ echo "Password :   " .$password. "<br>";
 $success = true;
 
 if(!$connection){
-	die("connection failed ".mysqli_error());
+	die(mysqli_error());
 	$success = false;
 }
 
 if(!$selection){
-	die("selection failed ".mysqli_error());
+	die(mysqli_error());
 	$success = false;
 }
 
