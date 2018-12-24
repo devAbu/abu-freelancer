@@ -1,6 +1,6 @@
 <?php
 
-	$hostname = "http://3.83.23.191";
+	$hostname = "http://127.0.0.1";
 	$username = "newuser";
 	$pass = "password";
 	$dataBaseName = "freelancer";
