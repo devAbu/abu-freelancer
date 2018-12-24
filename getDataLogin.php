@@ -1,12 +1,6 @@
 <?php 
 
-$hostname ="3.83.23.191";
-$username = "newuser";
-$pass = "password";
-$dataBaseName = "freelancer";
-
-$connection = mysqli_connect($hostname, $username, $pass);
-$selection = mysqli_select_db($connection, $dataBaseName);
+require 'config.php';
 
 $mail = $_POST['userName'];
 $userName = $_POST['userName'];
@@ -17,8 +11,6 @@ echo "Email :  " .$mail. "<br>";
 echo "Username :   " .$userName. "<br>";
 echo "Password :   " .$password. "<br>";
 //have to take register type from the register table
-
-$success = true;
 
 if(!$connection){
 	echo "abu ".mysqli_connect_error(). "<br>";
