@@ -48,15 +48,7 @@
     <center>
     <article>
         <?php
-        $hostname = "localhost";
-        $username = "root";
-        $pass = "";
-        $dataBaseName = "freelancer";
-
-        $connection = mysqli_connect($hostname, $username, $pass);
-        $selection = mysqli_select_db($connection, $dataBaseName);
-
-        $success = true;
+        require 'config.php';
 
         if(!$connection){
 	        die("connection failed ".mysqli_error());
@@ -91,15 +83,7 @@
         <label>Jobs posted number:</label>
         <br>
         <?php
-       	 $hostname = "http://3.83.23.191";
-	 $username = "newuser";
-	 $pass = "password";
-	 $dataBaseName = "freelancer";
-
-        $connection = mysqli_connect($hostname, $username, $pass);
-        $selection = mysqli_select_db($connection, $dataBaseName);
-
-        $success = true;
+       	 include 'config.php';
 
         if(!$connection){
     	die("connection failed ".mysqli_error());
