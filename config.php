@@ -13,5 +13,8 @@
 	if(!$connection){
 		echo "combe";
 	}
+if(!$selection){
+	echo "abu";
+}
 
 ?>
