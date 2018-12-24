@@ -10,4 +10,8 @@
 
 	$success = true;
 
+	if(!$connection){
+		echo "combe";
+	}
+
 ?>
