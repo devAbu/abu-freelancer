@@ -1,7 +1,7 @@
 <?php
 
 	$hostname = "127.0.0.1";
-	$username = "newuser";
+	$username = "root";
 	$pass = "password";
 	$dataBaseName = "freelancer"; 
 
